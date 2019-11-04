@@ -12,6 +12,7 @@
         <module>shiro-spring-demo</module>
         <module>shiro-spring-mvc-demo</module>
         <module>shiro-spring-boot-demo</module>
+        <module>shiro-spring-boot-web-demo</module>
     </modules>
 
     <packaging>pom</packaging>

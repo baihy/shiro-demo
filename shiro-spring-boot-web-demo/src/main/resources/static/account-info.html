@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Account Info</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 th:text="'Account Info Page for: ' + ${name} + '!'"/>
+            <a th:href="@{/}" class="btn btn-primary">Home</a>
+            <form id="logoutForm" th:action="@{/logout}" method="post">
+                <input type="submit" class="btn btn-danger" value="Logout"/>
+            </form>
+        </div>
+        <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+        <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </body>
+</html>
